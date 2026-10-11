@@ -5,7 +5,8 @@ pin=int(input('enter your pin '))
 if pin==password:
     x=int(input('''    Press 1 to withdrawal money
     Press 2 to change pin
-    Press 3 to deposit money ; '''))
+    Press 3 to deposit money 
+    Press 4 to check balance ; '''))
 
     if x==1 :
         withdrawal_amount= int(input('enter withdrawal amount : '))
@@ -23,7 +24,10 @@ if pin==password:
         deposit_amount= int(input('enter deposit amount : '))
         if deposit_amount>0 :
             print(f'{deposit_amount} successfully credit to your account ')
+    elif x==4:
+        print(f'{balance} rupees')
     else:
         print ('Invalid keypress')
+    
 else:
     print('incorrect pin, try again')
