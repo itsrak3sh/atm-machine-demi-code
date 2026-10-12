@@ -16,7 +16,7 @@ if pin==password:             #check the pin is corrrect or not
     Press 3 to deposit money 
     Press 4 to check balance ; '''))
 
-#respone user according to the input
+#respone to user according to the input
 
     if x==1 :     
         withdrawal_amount= int(input('enter withdrawal amount : '))
