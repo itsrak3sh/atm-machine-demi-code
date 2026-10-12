@@ -1,3 +1,5 @@
+                                                        #Internal code of ATM machine
+
 balance = 5000                        #store user's daata 
 password=9292
 
