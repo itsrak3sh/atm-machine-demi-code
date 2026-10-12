@@ -31,7 +31,7 @@ if pin==password:             #check the pin is corrrect or not
     elif x==3:
         deposit_amount= int(input('enter deposit amount : '))
         if deposit_amount>0 :
-            print(f'{deposit_amount} successfully credit to your account ')
+            print(f'{deposit_amount} successfully credited to your account ')
 
     elif x==4:
         print(f'{balance} rupees')
